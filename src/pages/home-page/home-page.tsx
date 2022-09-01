@@ -1,14 +1,17 @@
 import React, { FC, useEffect } from "react";
 import Categories from "../../components/section-components/categories/categories";
 import SortList from "../../components/section-components/sort-list/sort-list";
-import { SortPropertyEnum } from "../../components/section-components/sort-list/constants";
 import { useSelector } from "react-redux";
 import { pizzaSelector } from "../../store/slices/pizza-slice";
-import { filterSelector } from "../../store/slices/filter-slice";
+import {
+  filterSelector,
+  setCurrentPage,
+} from "../../store/slices/filter-slice";
 import { fetchPizzas } from "../../store/async actions/pizza-actions";
 import { useAppDispatch } from "../../store/store";
 import PizzaBlock from "../../components/pizza-block";
 import Skeleton from "../../components/pizza-block/skeleton";
+import Pagination from "../../components/section-components/pagination/pagination";
 
 const HomePage: FC = () => {
   const dispatch = useAppDispatch();
@@ -35,6 +38,8 @@ const HomePage: FC = () => {
 
     window.scrollTo(0, 0);
   };
+
+  const onChangePage = (page: number) => dispatch(setCurrentPage(page));
 
   useEffect(() => {
     getPizzas();
@@ -68,6 +73,7 @@ const HomePage: FC = () => {
           {status === "loading" ? skeletons : pizzas}
         </div>
       )}
+      <Pagination currentPage={currentPage} onChangePage={onChangePage} />
     </div>
   );
 };
