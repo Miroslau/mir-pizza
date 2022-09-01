@@ -24,7 +24,6 @@ const SortList: FC<SortPopupProps> = React.memo(({ value }) => {
   }, []);
 
   const onClickListItem = (item: SortItem) => {
-    console.log(item);
     setOpenSort(false);
   };
 
@@ -32,7 +31,7 @@ const SortList: FC<SortPopupProps> = React.memo(({ value }) => {
     <div className="sort" ref={sortRef}>
       <div className="sort__label">
         <img width={10} height={10} src={ArrowSvg} alt="Arrow" />
-        <b>Sort by:</b>
+        <b>Сортировка по:</b>
         <span onClick={setOpenSort.bind(this, !isOpenSort)}>{value.name}</span>
       </div>
       {isOpenSort && (

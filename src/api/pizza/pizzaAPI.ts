@@ -1,5 +1,5 @@
 import httpClient from "../index";
-import { Pizza, SearchPizzaParams } from "../../store/typeState/pizza";
+import { Pizza, SearchPizzaParams } from "../../store/type-state/pizza";
 import pickBy from "lodash/pickBy";
 import identity from "lodash/identity";
 

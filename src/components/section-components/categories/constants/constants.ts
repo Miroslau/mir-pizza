@@ -1,8 +1,8 @@
 export const categories = [
-  "All",
-  "Meats",
-  "Vegetarian",
-  "Grill",
-  "Sharp",
-  "Closed",
+  "Все",
+  "Мясные",
+  "Вегетарианская",
+  "Гриль",
+  "Острые",
+  "Закрытые",
 ];

@@ -36,16 +36,16 @@ export type SortPopupProps = {
 export const sortList: SortItem[] = [
   {
     id: 0,
-    name: "popularity (DESC)",
+    name: "популярности (DESC)",
     sortProperty: SortPropertyEnum.RATING_DESC,
   },
   {
     id: 1,
-    name: "popularity (ASC)",
+    name: "популярности (ASC)",
     sortProperty: SortPropertyEnum.RATING_ASC,
   },
-  { id: 2, name: "price (DESC)", sortProperty: SortPropertyEnum.PRICE_DESC },
-  { id: 3, name: "price (ASC)", sortProperty: SortPropertyEnum.PRICE_ASC },
-  { id: 4, name: "alphabet (DESC)", sortProperty: SortPropertyEnum.TITLE_DESC },
-  { id: 5, name: "alphabet (ASC)", sortProperty: SortPropertyEnum.TITLE_ASC },
+  { id: 2, name: "цене (DESC)", sortProperty: SortPropertyEnum.PRICE_DESC },
+  { id: 3, name: "цене (ASC)", sortProperty: SortPropertyEnum.PRICE_ASC },
+  { id: 4, name: "алфавиту (DESC)", sortProperty: SortPropertyEnum.TITLE_DESC },
+  { id: 5, name: "алфавиту (ASC)", sortProperty: SortPropertyEnum.TITLE_ASC },
 ];
