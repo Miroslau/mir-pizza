@@ -6,10 +6,11 @@ import Plus from "../../components/svg/plus";
 import { useDispatch, useSelector } from "react-redux";
 import { addItem, selectCartItemById } from "../../store/slices/cart-slice";
 import { CartItem } from "../../store/type-state/cart";
+import { Link } from "react-router-dom";
 
 const PizzaBlock: FC<PizzaBlockProps> = ({
   id,
-  name,
+  title,
   price,
   imageUrl,
   sizes,
@@ -25,7 +26,7 @@ const PizzaBlock: FC<PizzaBlockProps> = ({
   const onClickAdd = () => {
     const item: CartItem = {
       id,
-      name,
+      title,
       price,
       imageUrl,
       type: typeNames[activeType],
@@ -38,10 +39,10 @@ const PizzaBlock: FC<PizzaBlockProps> = ({
   return (
     <div className="pizza-block-wrapper">
       <div className="pizza-block">
-        <>
+        <Link key={id} to={`/pizza/${id}`}>
           <img className="pizza-block__image" src={imageUrl} alt="Pizza" />
-          <h4 className="pizza-block__title">{name}</h4>
-        </>
+          <h4 className="pizza-block__title">{title}</h4>
+        </Link>
         <div className="pizza-block__selector">
           <ul>
             {types.map((typeId) => (

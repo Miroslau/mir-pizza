@@ -4,12 +4,15 @@
     <list default="true" id="c9314676-7ac8-4e36-bd30-e4a3310f7456" name="Changes" comment="redux has been added">
       <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section-components/search/Search.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section-components/search/search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/svg/cross-icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/svg/search-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/full-pizza-page/full-pizza-page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/section-components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section-components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/pizza/pizzaAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/pizza/pizzaAPI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app-router/app-router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-router/app-router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pizza-block/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pizza-block/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pizza-block/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pizza-block/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/type-state/cart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/type-state/cart.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662013456773</updated>
-      <workItem from="1662013462469" duration="19188000" />
+      <workItem from="1662013462469" duration="24026000" />
     </task>
     <task id="LOCAL-00003" summary="feature: the design has been done">
       <created>1662021687686</created>
@@ -123,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662032682543</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feature: search has been added">
+      <created>1662035811463</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662035811463</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +147,7 @@
     <MESSAGE value="fix: category has been fixed&#10;feat: pagination has been added" />
     <MESSAGE value="feat: the sort's logic has been added" />
     <MESSAGE value="feature: basket logic has been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: basket logic has been added" />
+    <MESSAGE value="feature: search has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: search has been added" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 export type PizzaBlockProps = {
   id: string;
-  name: string;
+  title: string;
   price: number;
   imageUrl: string;
   sizes: number[];
