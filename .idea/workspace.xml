@@ -4,8 +4,16 @@
     <list default="true" id="c9314676-7ac8-4e36-bd30-e4a3310f7456" name="Changes" comment="redux has been added">
       <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/cart-reducer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/cart-slice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/type-state/cart.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/calculation-total-price.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/get-cart-from-ls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/math.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/section-components/sort-list/sort-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section-components/sort-list/sort-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pizza-block/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pizza-block/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section-components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section-components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -82,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662013456773</updated>
-      <workItem from="1662013462469" duration="13969000" />
+      <workItem from="1662013462469" duration="16692000" />
     </task>
     <task id="LOCAL-00003" summary="feature: the design has been done">
       <created>1662021687686</created>
@@ -105,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662027325507</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: the sort's logic has been added">
+      <created>1662027685415</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662027685415</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +132,7 @@
     <MESSAGE value="feature: the design has been done" />
     <MESSAGE value="feat: pagination has been added" />
     <MESSAGE value="fix: category has been fixed&#10;feat: pagination has been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: category has been fixed&#10;feat: pagination has been added" />
+    <MESSAGE value="feat: the sort's logic has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: the sort's logic has been added" />
   </component>
 </project>
