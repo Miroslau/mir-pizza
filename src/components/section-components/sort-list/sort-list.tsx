@@ -3,8 +3,11 @@ import { PopupClick, SortItem, sortList, SortPopupProps } from "./constants";
 import "./sort-list.scss";
 
 import ArrowSvg from "../../../assests/img/arrow.svg";
+import { useDispatch } from "react-redux";
+import { setSort } from "../../../store/slices/filter-slice";
 
 const SortList: FC<SortPopupProps> = React.memo(({ value }) => {
+  const dispatch = useDispatch();
   const [isOpenSort, setOpenSort] = useState(false);
 
   const sortRef = useRef<HTMLDivElement>(null);
@@ -24,6 +27,7 @@ const SortList: FC<SortPopupProps> = React.memo(({ value }) => {
   }, []);
 
   const onClickListItem = (item: SortItem) => {
+    dispatch(setSort(item));
     setOpenSort(false);
   };
 
