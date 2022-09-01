@@ -1,19 +1,21 @@
-import { HOME_PAGE, NOT_FOUND_PAGE } from "../constants/routes";
+import { FULL_PIZZA_PAGE, NOT_FOUND_PAGE } from "../constants/routes";
 import { RouteType } from "../types";
-import HomePage from "../pages/home-page/home-page";
 import NotFoundPage from "../pages/not-found-page/not-found-page";
+import React from "react";
 
-const privateRoutes: RouteType[] = [];
+const FullPizza = React.lazy(
+  () => import("../pages/full-pizza-page/full-pizza-page")
+);
 
 const publicRoutes: RouteType[] = [
-  {
-    path: HOME_PAGE,
-    Component: HomePage,
-  },
   {
     path: NOT_FOUND_PAGE,
     Component: NotFoundPage,
   },
+  {
+    path: FULL_PIZZA_PAGE,
+    Component: FullPizza,
+  },
 ];
 
-export { publicRoutes, privateRoutes };
+export { publicRoutes };

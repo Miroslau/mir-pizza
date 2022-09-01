@@ -19,4 +19,8 @@ export default {
       ),
     });
   },
+
+  getPizzaById(id: string | undefined) {
+    return httpClient.get<Pizza>("/pizzas/" + id);
+  },
 };
