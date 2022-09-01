@@ -37,7 +37,7 @@ const PizzaBlock: FC<PizzaBlockProps> = ({
           <ul>
             {sizes.map((size, index) => (
               <li key={size} className={activeSize === index ? "active" : ""}>
-                {size} sm.
+                {size} см.
               </li>
             ))}
           </ul>

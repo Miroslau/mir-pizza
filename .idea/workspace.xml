@@ -4,13 +4,12 @@
     <list default="true" id="c9314676-7ac8-4e36-bd30-e4a3310f7456" name="Changes" comment="redux has been added">
       <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section-components/pagination/Pagination.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section-components/pagination/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/section-components/pagination/pagination.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/pizza/pizzaAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/pizza/pizzaAPI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pizza-block/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pizza-block/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section-components/pagination/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section-components/pagination/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section-components/pagination/pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section-components/pagination/pagination.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home-page/home-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-page/home-page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662013456773</updated>
-      <workItem from="1662013462469" duration="9189000" />
+      <workItem from="1662013462469" duration="13495000" />
     </task>
     <task id="LOCAL-00003" summary="feature: the design has been done">
       <created>1662021687686</created>
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662021687686</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: pagination has been added">
+      <created>1662022894879</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662022894879</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +112,7 @@
     <MESSAGE value="created dev" />
     <MESSAGE value="redux has been added" />
     <MESSAGE value="feature: the design has been done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: the design has been done" />
+    <MESSAGE value="feat: pagination has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: pagination has been added" />
   </component>
 </project>

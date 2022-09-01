@@ -10,7 +10,6 @@ export default {
       params: pickBy(
         {
           page: currentPage,
-          limit: 4,
           category,
           sortBy,
           order,
