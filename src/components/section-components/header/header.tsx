@@ -5,10 +5,12 @@ import LogoSvg from "../../../assests/img/logo-pizza.svg";
 import Basket from "../../svg/basket";
 import { useSelector } from "react-redux";
 import { cartSelector } from "../../../store/slices/cart-slice";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import Search from "../search/search";
 
 const Header: FC = () => {
   const { items, totalPrice } = useSelector(cartSelector);
+  const location = useLocation();
   const isMounted = useRef(false);
 
   const totalCount = items.reduce(
@@ -36,6 +38,7 @@ const Header: FC = () => {
             </div>
           </div>
         </Link>
+        {location.pathname !== "/cart" && <Search />}
         <div className="header__cart">
           <div className="button button--cart">
             <span>{totalPrice} ₽</span>
