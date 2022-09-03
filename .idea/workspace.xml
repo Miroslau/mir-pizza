@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9314676-7ac8-4e36-bd30-e4a3310f7456" name="Changes" comment="redux has been added">
-      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/full-pizza-page/full-pizza-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assests/img/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assests/img/cross.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assests/img/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/cart-empty/cart-empty.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/cart-item/cart-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section-components/not-found-block/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/section-components/not-found-block/not-found-block.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/svg/add-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/svg/arrow-left-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/svg/clear.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/cart-page/cart-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/pizza/pizzaAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/pizza/pizzaAPI.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app-router/app-router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-router/app-router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pizza-block/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pizza-block/constants/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pizza-block/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pizza-block/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section-components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section-components/header/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/type-state/cart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/type-state/cart.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/not-found-page/not-found-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/not-found-page/not-found-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -63,10 +72,15 @@
     "nodejs_package_manager_path": "yarn",
     "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/wsa-251-31b/Projects/mir-pizza/node_modules/typescript/lib",
+    "ts.external.directory.path": "D:\\Projects\\pizza\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\pizza\src\components\cart" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="created dev">
@@ -138,6 +152,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created dev" />
