@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9314676-7ac8-4e36-bd30-e4a3310f7456" name="Changes" comment="redux has been added">
-      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/full-pizza-page/full-pizza-page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/pizza/pizzaAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/pizza/pizzaAPI.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app-router/app-router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-router/app-router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pizza-block/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pizza-block/constants/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pizza-block/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pizza-block/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/type-state/cart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/type-state/cart.ts" afterDir="false" />
+    <list default="true" id="c9314676-7ac8-4e36-bd30-e4a3310f7456" name="Changes" comment="feature: basket has been added">
+      <change afterPath="$PROJECT_DIR$/public/logo-pizza.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -54,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/wsa-251-31b/Projects/mir-pizza",
+    "last_opened_file_path": "D:/Projects/pizza/public",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -63,10 +54,18 @@
     "nodejs_package_manager_path": "yarn",
     "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/wsa-251-31b/Projects/mir-pizza/node_modules/typescript/lib",
+    "ts.external.directory.path": "D:\\Projects\\pizza\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\pizza\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\pizza\src\components\cart" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="created dev">
@@ -133,11 +132,29 @@
       <option name="project" value="LOCAL" />
       <updated>1662035811463</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feature: basket has been added">
+      <created>1662225735268</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662225735268</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created dev" />
@@ -148,6 +165,7 @@
     <MESSAGE value="feat: the sort's logic has been added" />
     <MESSAGE value="feature: basket logic has been added" />
     <MESSAGE value="feature: search has been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: search has been added" />
+    <MESSAGE value="feature: basket has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: basket has been added" />
   </component>
 </project>

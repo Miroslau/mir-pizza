@@ -2,7 +2,7 @@ import React from "react";
 
 export type RouteType = {
   path: string;
-  Component: React.FC;
+  Component: React.FC | any;
 };
 
 export type CategoriesProps = {
